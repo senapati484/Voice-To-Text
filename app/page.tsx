@@ -229,12 +229,18 @@ export default function VoiceToText() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-4 bg-texture">
+    <div className="min-h-screen flex items-center justify-center gap-10 p-4 bg-texture">
       <div className="w-full max-w-3xl">
         <div className="mb-8 text-center">
           <h1 className="text-4xl font-display text-white mb-2">
-            <span className="text-primary">Voice</span> t0o{" "}
-            <span className="text-primary">Text</span>
+            <span className="text-primary">Voice</span> t
+            <a
+              href="https://sayan4.vercel.app"
+              className="hover:text-primary delay-200"
+            >
+              0
+            </a>
+            o <span className="text-primary">Text</span>
           </h1>
           <p className="text-gray-400 font-text">
             Speak clearly to see real-time transcription

@@ -236,6 +236,8 @@ export default function VoiceToText() {
             <span className="text-primary">Voice</span> t
             <a
               href="https://sayan4.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-primary delay-200"
             >
               0

@@ -233,7 +233,7 @@ export default function VoiceToText() {
       <div className="w-full max-w-3xl">
         <div className="mb-8 text-center">
           <h1 className="text-4xl font-display text-white mb-2">
-            <span className="text-primary">Voice</span> to{" "}
+            <span className="text-primary">Voice</span> t0o{" "}
             <span className="text-primary">Text</span>
           </h1>
           <p className="text-gray-400 font-text">
@@ -284,7 +284,7 @@ export default function VoiceToText() {
           </div>
 
           <CardContent className="p-0">
-            <div className="min-h-[300px] max-h-[400px] overflow-y-auto p-6 font-text text-lg">
+            <div className="min-h-[300px] max-h-[500px] overflow-y-auto p-6 font-text text-lg">
               {transcript ? (
                 <p className="whitespace-pre-wrap leading-relaxed">
                   {transcript}

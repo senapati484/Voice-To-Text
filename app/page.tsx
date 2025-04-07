@@ -229,7 +229,7 @@ export default function VoiceToText() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center gap-10 p-4 bg-texture">
+    <div className="min-h-screen flex items-center justify-center p-4 bg-texture">
       <div className="w-full max-w-3xl">
         <div className="mb-8 text-center">
           <h1 className="text-4xl font-display text-white mb-2">
